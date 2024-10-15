@@ -1,0 +1,78 @@
+.input-field-design{
+    width: 80%;
+    width: 100%;
+    padding: 12px 20px;
+    border-radius: 8px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-size: 14px;
+}
+.input-field-design:focus{
+    border: 3px solid rgb(57, 57, 238);
+    font-size: 16px;
+}
+.submit-btn{
+    background: linear-gradient(to bottom right, #677ce8, #764da3);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    margin-inline: 5px;
+    border: none;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    scale: 1.1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s ease-in-out;
+
+}
+
+.cancel-btn{
+    background-color: #fc5f59;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    border: none;cursor: pointer;
+}
+.cancel-btn:hover{
+    scale: 1.1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s ease-in-out;
+
+}
+
+/* .radio-btn{
+    border-radius: 50%;
+    color: #000;
+    background-color: #000;
+} */
+.radio-btn {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+  }
+
+  /* Add the inner dot when checked */
+  .radio-btn:checked::before {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background-color: #000;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

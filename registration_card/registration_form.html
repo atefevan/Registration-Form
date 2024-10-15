@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <div
+        style="
+          background: linear-gradient(to bottom right, #677ce8, #764da3);
+          padding: 0px;
+          margin: 0px;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          position: fixed;
+        "
+      >
+        <div
+          style="
+            display: flex;
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+          "
+        >
+          <!-- CARD -->
+          <div
+            style="
+              display: flex;
+              flex-direction: column;
+              background-color: white;
+              width: 55%;
+              border-radius: 15px;
+              overflow: auto;
+            "
+          >
+            <!-- Title -->
+            <div
+              style="
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                font-family: Helvetica, sans-serif;
+                font-weight: 500;
+                font-size: 48px;
+                padding-block: 20px;
+              "
+            >
+              Registration
+            </div>
+            <div style="display: flex">
+              <!-- background-color: violet -->
+              <!-- LEFT -->
+              <div style="display: flex; flex: 0.9">
+                <div
+                  style="
+                    display: flex;
+                    flex: 0.5;
+                    align-items: start;
+                    padding: 10px;
+                    padding-left: 20px;
+                    flex-direction: column;
+                  "
+                >
+                  <p
+                    style="
+                      font-family: Arial;
+                      font-size: 18px;
+                      padding-bottom: 5px;
+                    "
+                  >
+                    Full Name
+                  </p>
+                  <p
+                    style="
+                      font-family: Arial;
+                      font-size: 18px;
+                      padding-bottom: 12px;
+                    "
+                  >
+                    Email
+                  </p>
+                  <p
+                    style="
+                      font-family: Arial;
+                      font-size: 18px;
+                      padding-bottom: 15px;
+                    "
+                  >
+                    Password
+                  </p>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    flex: 1;
+                    align-items: start;
+                    padding-block: 14px;
+                    flex-direction: column;
+                  "
+                >
+                  <div style="width: 100%">
+                    <input
+                      type="text"
+                      class="input-field-design"
+                      placeholder="Enter your name"
+                    />
+                  </div>
+                  <div style="width: 100%">
+                    <input
+                      type="email"
+                      class="input-field-design"
+                      placeholder="Enter your email"
+                    />
+                  </div>
+                  <div style="width: 100%">
+                    <input
+                      type="password"
+                      class="input-field-design"
+                      placeholder="Enter your password"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- RIGHT -->
+              <div style="display: flex; flex: 1; padding-right: 20px">
+                <div
+                  style="
+                    display: flex;
+                    flex: 0.5;
+                    align-items: start;
+                    padding: 10px;
+                    flex-direction: column;
+                  "
+                >
+                  <p
+                    style="
+                      font-family: Arial;
+                      font-size: 18px;
+                      padding-bottom: 10px;
+                    "
+                  >
+                    User Name
+                  </p>
+                  <p
+                    style="
+                      font-family: Arial;
+                      font-size: 18px;
+                      padding-bottom: 12px;
+                    "
+                  >
+                    Phone
+                  </p>
+                  <p
+                    style="
+                      font-family: Arial;
+                      font-size: 18px;
+                      padding-bottom: 5px;
+                    "
+                  >
+                    Confirm Pass
+                  </p>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    flex: 1;
+                    align-items: start;
+                    padding-block: 14px;
+                    flex-direction: column;
+                  "
+                >
+                  <div style="width: 100%">
+                    <input
+                      type="text"
+                      class="input-field-design"
+                      placeholder="Enter your username"
+                    />
+                  </div>
+                  <div style="width: 100%">
+                    <input
+                      type="text"
+                      class="input-field-design"
+                      placeholder="Enter your phone"
+                    />
+                  </div>
+                  <div style="width: 100%">
+                    <input
+                      type="password"
+                      class="input-field-design"
+                      placeholder="Confirm your password"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="display: flex; flex-direction: column">
+              <div style="display: flex">
+                <div
+                  style="
+                    padding-inline-start: 20px;
+                    padding-inline-end: 30px;
+                    font-family: Arial;
+                    font-size: 18px;
+                  "
+                >
+                  Gender
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-self: start;
+                    font-family: Arial;
+                    font-size: 18px;
+                  "
+                >
+                  <input
+                    class="radio-btn"
+                    type="radio"
+                    id="male"
+                    name="gender"
+                  />
+                  <label for="Male" style="padding-inline: 5px">Male</label>
+                  <input
+                    class="radio-btn"
+                    type="radio"
+                    id="female"
+                    name="gender"
+                  />
+                  <label for="female" style="padding-inline: 5px">Female</label>
+                  <input
+                    class="radio-btn"
+                    type="radio"
+                    id="other"
+                    name="gender"
+                  />
+                  <label for="other" style="padding-inline: 5px">Other</label>
+                </div>
+              </div>
+              <div style="padding-inline: 20px; padding-block: 30px">
+                <button class="cancel-btn">Cancel</button>
+                <button class="submit-btn" type="submit">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
